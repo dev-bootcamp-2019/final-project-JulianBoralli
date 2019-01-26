@@ -1,0 +1,38 @@
+{
+  "name": "the-token",
+  "version": "1.0.0",
+  "description": "Own and monetize your data.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "NUXT_ENV_ENVIRONMENT=rinkeby nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --ignore-pattern migrations/ --ignore-pattern test/ .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore --ignore-pattern migrations/ --ignore-pattern test/ .",
+    "precommit": "npm run lint",
+    "test": "truffle test"
+  },
+  "author": "Julian Boralli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ethers": "^4.0.20",
+    "nuxt": "^2.3.4",
+    "truffle-contract": "^4.0.2",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "web3": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-loader": "^7.1.0"
+  }
+}

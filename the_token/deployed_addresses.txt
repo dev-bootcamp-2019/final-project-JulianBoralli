@@ -1,0 +1,12 @@
+The theToken contract can be migrated to a local network, for example
+using Ganache or ganache-cli. Just make sure you use the right port
+on the truffle.js file.
+
+There is also a running version of theToken contract on the Rinkeby
+network. Here is the deployed address:
+
+0x8b0A8B636d243D1691BDAA0631eF4809F67ae4BF
+
+Etherscan link:
+
+https://rinkeby.etherscan.io/address/0x8b0a8b636d243d1691bdaa0631ef4809f67ae4bf

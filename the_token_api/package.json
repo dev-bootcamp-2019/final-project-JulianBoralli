@@ -1,0 +1,30 @@
+{
+  "name": "the_token_api",
+  "version": "1.0.0",
+  "description": "Own and manage your data.",
+  "main": "index.js",
+  "scripts": {
+    "c": "node --experimental-repl-await repl",
+    "dev": "nodemon app.js",
+    "rinkeby": "BLOCKCHAIN=rinkeby nodemon app.js",
+    "lint": "eslint --ext .js --ignore-path .gitignore --ignore-pattern test/ .",
+    "lintfix": "eslint --fix --ext .js --ignore-path .gitignore --ignore-pattern test/ .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Boralli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "truffle-contract": "^4.0.2",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "nodemon": "^1.18.9"
+  }
+}
