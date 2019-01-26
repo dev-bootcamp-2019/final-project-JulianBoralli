@@ -1,4 +1,4 @@
-#The Token API
+# The Token API
 
 ## A stable token, paired to the USD. THE Token also provides a marketplace to buy/sell products and services.
 
